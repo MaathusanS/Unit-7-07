@@ -43,5 +43,5 @@ function calculate () {
   }
   
   // Prints result to page.
-  document.getElementById('result').innerHTML = 'Answer: ' + answer // Displays result.
+  document.getElementById('result').innerHTML = 'Answer: ' + answer
 }
