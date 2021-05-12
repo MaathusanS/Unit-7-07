@@ -11,7 +11,7 @@ function calculate () {
   // Clears out previous answer value and resets values.
   answer = 0
   negative = false
-  
+
   // Gets values from input boxes.
   firstNum = document.getElementById('input1').value
   secondNum = document.getElementById('input2').value
@@ -41,7 +41,7 @@ function calculate () {
   if (negative) {
     answer = 0 - answer
   }
-  
+
   // Prints result to page.
   document.getElementById('result').innerHTML = 'Answer: ' + answer
 }
